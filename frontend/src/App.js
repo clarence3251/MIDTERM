@@ -39,10 +39,10 @@ const App = () => {
 
   return (
     <div>
+      <img src={logo} alt="lr logo" className="lr-logo"/>
       <h1>Student Recording System</h1>
       <StudentForm addStudent={addStudent} />
       <StudentList students={students} />
-      <img src={logo} alt="lr logo" className="lr-logo"/>
     </div>
   );
 };
