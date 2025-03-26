@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  text-align: center;
+  background-color: rgb(113, 150, 108);
+  margin-top: 100px;
+}
+
+.lr-logo{
+  width: 200px;
+  height: 200px;
+}

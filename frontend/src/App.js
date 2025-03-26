@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import StudentForm from "./components/StudentForm";
 import StudentList from "./components/StudentList";
+import './App.css';
+import logo from "./lr.png";
 
 
 const App = () => {
@@ -40,6 +42,7 @@ const App = () => {
       <h1>Student Recording System</h1>
       <StudentForm addStudent={addStudent} />
       <StudentList students={students} />
+      <img src={logo} alt="lr logo" className="lr-logo"/>
     </div>
   );
 };
